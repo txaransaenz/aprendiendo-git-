@@ -20,14 +20,17 @@ git add . = añade todos los archivos a stage
 git commit -m "nombre del commit" = sube los archivos
 git commit -a = abre code para hacer el commit
 
-git restore --staged <archivo> = saca los archivos del area de stage
-git rm <archivo> = elimina los archivos
+git restore --staged <archivo> = saca los archivos del stage.
 
-git log = muestra todos los commits
-git log --oneline = muestra los commits de forma simplificada
+git log = muestra todos los commits.
+git log --oneline = muestra los commits de forma simplificada.
 
-git diff = muestra cambios forma visual
-git diff --staged = muestra cambios que hay en stage
+git diff = muestra cambios forma visual.
+git diff --staged = muestra cambios que hay en stage.
+
+git branch = muestra la rama en la que estamos.
+git checkout -b <nombrerama> = crea una rama nueva y cambia a rama actual.
+
 
 -Otros comandos
 code .= abre visual studio code en la carpeta actual
