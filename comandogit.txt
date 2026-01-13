@@ -30,7 +30,12 @@ git diff --staged = muestra cambios que hay en stage.
 
 git branch = muestra la rama en la que estamos.
 git checkout -b <nombrerama> = crea una rama nueva y cambia a rama actual.
+git checkout main = cambia a la rama main
 
+git remote add origin <nombrewebrepo> = añade el repositorio
+
+git push -u origin main = crea rama main en repo
+git push = sube a github
 
 -Otros comandos
 code .= abre visual studio code en la carpeta actual
