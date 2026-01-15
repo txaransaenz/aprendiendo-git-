@@ -1,0 +1,56 @@
+# Resumen de comandos de GIT
+-------------------------------------------
+
+## Configuracion GIT:
+
+```
+git config --global user.name "nombre"
+git config --global user.email ejemplo@mail.com
+git config --global core.editor "code --wait"
+git config --global core.autocrlf input
+git config --global -e
+```
+
+` git config --global -e ` = muestra el  archivo de configuraciòn.
+*******************************************
+
+## Comandos GIT:
+
+```
+git init = inicia el repositorio
+
+git status = muestra los archivos que se han añadido a stage
+git status -s = muestra los archivos para stage de forma simple
+
+git add <archivo> = añade archivos a stage
+git add . = añade todos los archivos a stage
+
+git commit -m "nombre del commit" = sube los archivos
+git commit -a = abre code para hacer el commit
+
+git restore --staged <archivo> = saca los archivos del stage.
+
+git log = muestra todos los commits.
+git log --oneline = muestra los commits de forma simplificada.
+
+git diff = muestra cambios forma visual.
+git diff --staged = muestra cambios que hay en stage.
+
+git branch = muestra la rama en la que estamos.
+git checkout -b <nombrerama> = crea una rama nueva y cambia a rama actual.
+git checkout main = cambia a la rama main
+
+git remote add origin <nombrewebrepo> = añade el repositorio
+
+git push -u origin main = crea rama main en repo
+git push = sube a github
+```
+
+## Otros Comandos:
+
+```
+code . = abre visual studio code en la carpeta actual.
+ls -a = muestra los archivos ocultos.
+mv archivo.txt archivo1.txt = cambia el nombre del archivo.
+```
+
